@@ -1,7 +1,8 @@
-from dataset import prepare_dataset
+from rnn import run_rnn
+
 
 def main() -> None:
-    prepare_dataset()
+    run_rnn()
 
 
 if __name__ == '__main__':
